@@ -1,12 +1,115 @@
+*{box-sizing: border-box;}
+
 body{
-    background-image: url(kepek/hatter.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(kepek/skin.jpg);
     }
 main{
-    max-width: 700px;
+    max-width: 1261px;
     margin: auto;
-    background-color: #6BCD5F; 
+    background-color: rgb(15,120,60); 
+}
+header{
+  background-image: url(kepek/header.png);
+  background-repeat: no-repeat;
+  font-size: 60px;
+  text-align: center;
+  color: #ffffffd8;
+  height: 330px;
+  padding: 0px;
+  font-size: 150px;
+  padding-top: 200px;
+}
+
+.indexA{
+  width: 80%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.411);
+  height: auto;
+}
+.indexA h1{
+  font-size: 35px;
+  text-align: center;
+  padding-top: 40px;
+}
+.indexA p{
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  text-align: justify;
+}
+.middle{
+  margin-left: 40%;
+}
+.indexA ul{
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+}
+.indexA li{
+  font-size: 20px;
+  text-align: justify;
+}
+.listing{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.demoA{
+  width: 80%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.411);
+  height: auto;
+}
+.demoA h1{
+  font-size: 35px;
+  text-align: center;
+  padding-top: 40px;
+}
+.demoA p{
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+}
+.demoA h2{
+  padding-left: 30px;
+}
+.middle{
+  margin-left: 40%;
+}
+.demoA ul{
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+}
+.demoA li{
+  font-size: 20px;
+  text-align: justify;
+}
+.listing2{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+aside{
+  width: 80%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.411);
+}
+aside h1{
+  font-size: 35px;
+  text-align: center;
+  padding-top: 40px;
+}
+aside p{
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  text-align: justify;
 }
 .sidebar {
     height: 100%;
@@ -58,3 +161,23 @@ main{
     transition: margin-left .5s;
     padding: 16px;
   }
+  footer{
+    margin: auto;
+  }
+  .im{
+   margin-left: 12%;
+   margin-top: 3%;
+  }
+  .im img{
+    max-height: 300px;
+  }
+.Dgame{
+  padding-top: 20px;
+}
+#game{
+  background-color: #111;
+  margin-left: 35%;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
