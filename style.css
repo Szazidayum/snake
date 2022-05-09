@@ -6,7 +6,8 @@ body{
 main{
     max-width: 1261px;
     margin: auto;
-    background-color: rgb(15,120,60); 
+    background-color: rgb(15,120,60);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
   background-image: url(kepek/header.png);
@@ -180,4 +181,47 @@ aside p{
   display: flex;
     align-items: center;
     justify-content: center;
+}
+.gal {
+  background-color: rgba(255, 255, 255, 0.411);
+}
+.gal h1{
+  font-size: 70px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.tarolo{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin: 0;
+  
+}
+.kartya{
+  width: 300px;
+  padding: 0px;
+  background-color: rgb(255, 255, 255, 0.411);
+  border: 4px solid black;
+
+}
+.kep{
+  padding-top: 20px;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+.kep img{
+  width: 100%;
+  border: 4px solid black;
+}
+.szoveg{
+  margin: auto;
+}
+.szoveg h3{
+  text-align: center;
+}
+.szoveg p{
+  text-align: justify;
+  padding: 20px;
 }
