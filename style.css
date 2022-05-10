@@ -225,3 +225,52 @@ aside p{
   text-align: justify;
   padding: 20px;
 }
+.matopeli{
+  margin: auto 30%;
+  border: 4px solid black;
+}
+.jobb{
+  float: right;
+  padding: 20px;
+}
+.bal{
+  float: left;
+  padding: 20px;
+}
+.jobb img{
+  border: 4px solid black;
+}
+.bal img{
+  border: 4px solid black;
+}
+.balA{
+  width: 80%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.411);
+  height: 350px;
+}
+.balA p{
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 130px;
+  text-align: justify;
+}
+.balAA{
+  width: 80%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.411);
+  height: 400px;
+}
+.balAA p{
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  text-align: justify;
+}
+.balAA h1{
+  font-size: 35px;
+  text-align: center;
+  padding-top: 40px;
+}
